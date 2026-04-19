@@ -218,7 +218,7 @@ MIT License - See LICENSE file for details
 - Assignment: Supply Chain Management DApp
 - Semester: 8th
 - Year: 2026
-- Network: Polygon Mumbai Testnet
+- Network: Ethereum Sepolia Testnet
 - Framework: Hardhat + React
 
 ## 🤝 Contributing

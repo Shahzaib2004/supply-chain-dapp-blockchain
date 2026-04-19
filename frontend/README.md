@@ -1,10 +1,10 @@
 # Shahzaib Supply Chain Frontend
 
-A React-based web interface for interacting with the Shahzaib Supply Chain smart contract on Polygon Mumbai Testnet.
+A React-based web interface for interacting with the Shahzaib Supply Chain smart contract on Ethereum Sepolia Testnet.
 
 ## Features
 
-- **Connect Wallet**: Connect to MetaMask and Polygon Mumbai Testnet
+- **Connect Wallet**: Connect to MetaMask and Ethereum Sepolia Testnet
 - **Register Products**: Manufacturers can create and track new products
 - **Transfer Products**: Move products through the supply chain with full history
 - **View All Products**: Browse all products in the system
@@ -48,12 +48,12 @@ npm run preview
 ## Requirements
 
 - MetaMask browser extension installed
-- Polygon Mumbai Testnet configured in MetaMask
-- MATIC tokens for gas fees (get from faucet)
+- Ethereum Sepolia Testnet configured in MetaMask
+- Sepolia ETH for gas fees (get from faucet)
 
 ## Network Details
 
-- **Network**: Polygon Mumbai Testnet
-- **Chain ID**: 80001
-- **RPC**: https://rpc-mumbai.maticvigil.com
-- **Faucet**: https://faucet.polygon.technology/
+- **Network**: Ethereum Sepolia Testnet
+- **Chain ID**: 11155111
+- **RPC**: https://ethereum-sepolia.publicnode.com
+- **Faucet**: https://www.alchemy.com/faucets/ethereum-sepolia
