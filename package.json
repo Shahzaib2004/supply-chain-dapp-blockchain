@@ -1,0 +1,26 @@
+{
+  "name": "shahzaib-supply-chain",
+  "version": "1.0.0",
+  "description": "Supply Chain Management DApp using Polygon and Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network mumbai",
+    "test": "hardhat test",
+    "local": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node"
+  },
+  "keywords": ["blockchain", "supply-chain", "polygon", "hardhat", "solidity"],
+  "author": "Shahzaib",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "ethers": "^6.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
